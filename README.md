@@ -1,4 +1,4 @@
-# eye_click
+# eye-click
 a program that emulates a left button mouse click when it detects you blink using mediapipe
 
 # Requirements:
