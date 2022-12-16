@@ -26,7 +26,7 @@ def chck_click(faces,rt_thresh,lt_thresh):
     else:
           blnk=False
 with mp_face_mesh.FaceMesh(
-    max_num_faces=1,
+    max_num_faces=1,# adjust it to your liking
     refine_landmarks=True,
     min_detection_confidence=0.5,
     min_tracking_confidence=0.5) as face_mesh:
