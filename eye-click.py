@@ -12,7 +12,7 @@ mp_drawing_styles = mp.solutions.drawing_styles
 mp_face_mesh = mp.solutions.face_mesh
 mp_face_mesh.refine_landmarks=True
 drawing_spec = mp_drawing.DrawingSpec(thickness=1, circle_radius=1)
-cap = cv2.VideoCapture('/dev/video1') # select your video device (here it is the second video device on linux)
+cap = cv2.VideoCapture('/dev/video0') # select your video device (here it is the first video device on linux)
 # for windows it would probably be like: cap = cv2.VideoCapture(0) for your first video device
 def chck_click(faces,rt_thresh,lt_thresh):
   global hold
